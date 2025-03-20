@@ -1,0 +1,51 @@
+
+[
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123456",
+        "imageName": "AbyssinianOwl",
+        "title": "Abyssinian Owl",
+        "subtitle": "Majestic nocturnal hunter of East Africa."
+    },
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123457",
+        "imageName": "AfricanFirefinch",
+        "title": "African Firefinch",
+        "subtitle": " Vibrant red plumage, native to sub-Saharan Africa."
+    },
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123458",
+        "imageName": "Akepa",
+        "title": "Akepa",
+        "subtitle": "Rare Hawaiian songbird with yellow-tipped feathers"
+    },
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123459",
+        "imageName": "AndeanGull",
+        "title": "Andean Gull",
+        "subtitle": "Coastal bird found along the Andes mountains."
+    },
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123460",
+        "imageName": "AndeanSwift",
+        "title": "Andean Swift",
+        "subtitle": "Agile flier of the high Andes, skilled at catching insects."
+    },
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123461",
+        "imageName": "ApoMyna",
+        "title": " Apo Myna",
+        "subtitle": "Endemic bird from the Philippines, with striking black and yellow plumage."
+    },
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123462",
+        "imageName": "ArcticWarble",
+        "title": "Arctic Warbler",
+        "subtitle": "Migratory bird found in the Arctic regions."
+    },
+    {
+        "id": "1A2B3C4D-1234-5678-9101-ABCDEF123463",
+        "imageName": "Asher",
+        "title": "Asher",
+        "subtitle": "A small and elusive bird, known for its subtle beauty."
+    }
+]

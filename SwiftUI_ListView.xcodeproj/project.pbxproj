@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE786D0F2D8C7C2D00B133AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE786D0C2D8C7C2D00B133AF /* ContentView.swift */; };
+		BE786D102D8C7C2D00B133AF /* SwiftUI_ListViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE786D0D2D8C7C2D00B133AF /* SwiftUI_ListViewApp.swift */; };
+		BE786D112D8C7C2D00B133AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE786D092D8C7C2D00B133AF /* Preview Assets.xcassets */; };
+		BE786D122D8C7C2D00B133AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE786D0B2D8C7C2D00B133AF /* Assets.xcassets */; };
+		BE786D152D8C7C4100B133AF /* Datas.json in Resources */ = {isa = PBXBuildFile; fileRef = BE786D142D8C7C3A00B133AF /* Datas.json */; };
+		BE786D182D8C7CC300B133AF /* BirdsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE786D172D8C7CBD00B133AF /* BirdsModel.swift */; };
+		BE786D1A2D8C89FF00B133AF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE786D192D8C89FF00B133AF /* Storyboard.storyboard */; };
+		BE786D1F2D8C8D5F00B133AF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE786D1E2D8C8D5F00B133AF /* DetailsView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE786CF82D8C799C00B133AF /* SwiftUI_ListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_ListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE786D092D8C7C2D00B133AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE786D0B2D8C7C2D00B133AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE786D0C2D8C7C2D00B133AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE786D0D2D8C7C2D00B133AF /* SwiftUI_ListViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ListViewApp.swift; sourceTree = "<group>"; };
+		BE786D142D8C7C3A00B133AF /* Datas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Datas.json; sourceTree = "<group>"; };
+		BE786D172D8C7CBD00B133AF /* BirdsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsModel.swift; sourceTree = "<group>"; };
+		BE786D192D8C89FF00B133AF /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		BE786D1E2D8C8D5F00B133AF /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE786CFA2D8C799C00B133AF /* SwiftUI_ListView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUI_ListView;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE786CF52D8C799C00B133AF /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		BE786CEF2D8C799C00B133AF = {
 			isa = PBXGroup;
 			children = (
-				BE786CFA2D8C799C00B133AF /* SwiftUI_ListView */,
+				BE786D0E2D8C7C2D00B133AF /* SwiftUI_ListView */,
 				BE786CF92D8C799C00B133AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,53 @@
 				BE786CF82D8C799C00B133AF /* SwiftUI_ListView.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE786D0A2D8C7C2D00B133AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE786D092D8C7C2D00B133AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE786D0E2D8C7C2D00B133AF /* SwiftUI_ListView */ = {
+			isa = PBXGroup;
+			children = (
+				BE786D1B2D8C8D3900B133AF /* View */,
+				BE786D162D8C7CB400B133AF /* Model */,
+				BE786D132D8C7C3200B133AF /* Extention */,
+				BE786D0A2D8C7C2D00B133AF /* Preview Content */,
+				BE786D0B2D8C7C2D00B133AF /* Assets.xcassets */,
+				BE786D0D2D8C7C2D00B133AF /* SwiftUI_ListViewApp.swift */,
+				BE786D192D8C89FF00B133AF /* Storyboard.storyboard */,
+			);
+			path = SwiftUI_ListView;
+			sourceTree = "<group>";
+		};
+		BE786D132D8C7C3200B133AF /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				BE786D142D8C7C3A00B133AF /* Datas.json */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		BE786D162D8C7CB400B133AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE786D172D8C7CBD00B133AF /* BirdsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE786D1B2D8C8D3900B133AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE786D0C2D8C7C2D00B133AF /* ContentView.swift */,
+				BE786D1E2D8C8D5F00B133AF /* DetailsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +117,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE786CFA2D8C799C00B133AF /* SwiftUI_ListView */,
 			);
 			name = SwiftUI_ListView;
 			packageProductDependencies = (
@@ -109,6 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE786D112D8C7C2D00B133AF /* Preview Assets.xcassets in Resources */,
+				BE786D1A2D8C89FF00B133AF /* Storyboard.storyboard in Resources */,
+				BE786D122D8C7C2D00B133AF /* Assets.xcassets in Resources */,
+				BE786D152D8C7C4100B133AF /* Datas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE786D0F2D8C7C2D00B133AF /* ContentView.swift in Sources */,
+				BE786D1F2D8C8D5F00B133AF /* DetailsView.swift in Sources */,
+				BE786D182D8C7CC300B133AF /* BirdsModel.swift in Sources */,
+				BE786D102D8C7C2D00B133AF /* SwiftUI_ListViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
